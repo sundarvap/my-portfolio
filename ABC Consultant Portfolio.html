@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Sundar Partha</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style/portfolioStyles.css">
+
+    <!-- CSS Styling -->
+    <style>
+        
+		
+    </style>
+</head>
+
+<body>
+
+  <!-- <header>
+        <h1>Sundar Partha</h1> 		
+    </header> -->
+
+    <nav>
+		<div class="header-left">
+			<img src="images/profile.jpg" alt="Profile Image" class="profile-img-header">
+		</div>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#recommendations">Recommendations</a>
+    </nav>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+      
+
+        <div class="about-text">
+            <h3>Sundar Partha</h3>
+            <p>
+                I am an enthusiastic and detail-oriented learner with less than five years of
+                professional experience. I have a strong foundation in web technologies and
+                a passion for building clean, user-friendly applications. I am continuously
+                improving my skills and actively seeking opportunities where I can contribute,
+                grow, and learn as part of a collaborative team.
+            </p>
+        </div>
+		</div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        
+		
+		<div class="skills-container">
+			<div class="skill-card">
+				<img src="images/Go.png" alt="GO Logo">
+				<p>GOLang</p>
+			</div>
+
+			<div class="skill-card">
+				<img src="images/Mongo.png" alt="Mongo Logo">
+				<p>Mongo DB</p>
+			</div>
+			
+			<div class="skill-card">
+				<img src="images/Sql.png" alt="SQL Logo">
+				<p>SQl Server</p>
+			</div>
+
+			<div class="skill-card">
+				<img src="images/javascript.png" alt="JavaScript Logo">
+				<p>JavaScript</p>
+			</div>
+
+			<div class="skill-card">
+				<img src="images/git.png" alt="Git Logo">
+				<p>Git & GitHub</p>
+			</div>
+		</div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="projects-container">
+
+			<div class="project-card">
+				<h3>Online Course Registration System</h3>
+				<p>
+					Developed a web-based application that allows students to register for courses,
+					view schedules, and manage enrollments using HTML, CSS, and JavaScript.
+				</p>
+			</div>
+
+			<div class="project-card">
+				<h3>Personal Budget Tracker</h3>
+				<p>
+					Built a responsive budget tracking tool to record income and expenses,
+					providing real-time balance updates and category-based summaries.
+				</p>
+			</div>
+
+			<div class="project-card">
+				<h3>Weather Information Dashboard</h3>
+				<p>
+					Created a dashboard that displays real-time weather information for user-selected
+					locations using JavaScript and public APIs.
+				</p>
+			</div>
+
+		</div>
+    </section>
+
+    <!-- Recommendations Section -->
+    <section id="recommendations">
+        <h2>Recommendations</h2>
+
+        <div class="recommendation-card">
+			<p>
+				“Demonstrates strong problem-solving skills and consistently applies concepts
+				learned in training to real-world scenarios.”
+			</p>
+			<span>– Training Instructor</span>
+		</div>
+
+		<div class="recommendation-card">
+			<p>
+				“Highly motivated learner who takes initiative and collaborates effectively
+				with team members on group projects.”
+			</p>
+			<span>– Team Lead</span>
+		</div>
+
+		<div class="recommendation-card">
+			<p>
+				“Shows excellent attention to detail and a genuine commitment to continuous
+				learning and professional growth.”
+			</p>
+			<span>– Project Mentor</span>
+		</div>		
+		
+    </section>
+	<Section id ="newRecommendations">
+	 <h2>New Recommendations</h2>
+	
+	<!-- Add new recommendation -->
+		<div class="recommendation-form">
+			<textarea id="rec-text" placeholder="Write a recommendation"></textarea>
+			<input type="text" id="rec-author" placeholder="Recommender name">
+			<button onclick="addRecommendation()">Add Recommendation</button>
+		</div>
+	
+	</section>
+
+    <footer>
+        <p>© 2026 ABC Consultants | Portfolio for Prospective Employers</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src ="scripts/portfolio.js"></script>
+
+</body>
+</html>
